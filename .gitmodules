@@ -1,0 +1,3 @@
+[submodule "sc_rust"]
+	path = sc_rust
+	url = ./sc_rust

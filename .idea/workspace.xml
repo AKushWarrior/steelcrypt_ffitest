@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/sc_rust/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7512616b-d2d0-44cf-8f44-b945d3dd9854" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/cbc_pkcs7_benchmark.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc_rust/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sc_ffi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sc_ffi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sc_ffi.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sc_ffi.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc_rust" beforeDir="false" afterPath="$PROJECT_DIR$/sc_rust" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc_rust/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sc_rust/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc_rust/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/sc_rust/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc_rust/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sc_ffi_test.dart" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="dwwm1510" />
+  </component>
+  <component name="ProjectId" id="1n0DZo9eEe8trhaX6JdLafq73os" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sc_rust" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Dart Command Line App.cbc_pkcs7_benchmark.dart">
+    <configuration name="Run sc_rust" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package sc_rust --bin sc_rust" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/sc_rust" />
+      <option name="channel" value="DEFAULT" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cbc_pkcs7_benchmark.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/cbc_pkcs7_benchmark.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.cbc_pkcs7_benchmark.dart" />
+        <item itemvalue="Cargo.Run sc_rust" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7512616b-d2d0-44cf-8f44-b945d3dd9854" name="Default Changelist" comment="" />
+      <created>1610518175163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610518175163</updated>
+      <workItem from="1610518182649" duration="3543000" />
+      <workItem from="1610521859228" duration="5518000" />
+      <workItem from="1610560259505" duration="22798000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

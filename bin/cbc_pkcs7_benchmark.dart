@@ -5,6 +5,8 @@ import 'dart:typed_data';
 import 'package:steel_crypt/steel_crypt.dart';
 import 'dart:ffi';
 import 'package:ffi/ffi.dart';
+import 'package:hex/hex.dart';
+
 
 typedef nativeCbcPkcs7 = Pointer<Utf8> Function(Pointer<Utf8>, Pointer<Utf8>, Pointer<Utf8>);
 typedef localCbcPkcs7 = Pointer<Utf8> Function(Pointer<Utf8>, Pointer<Utf8>, Pointer<Utf8>);
@@ -27,6 +29,7 @@ typedef localCbcPkcs7 = Pointer<Utf8> Function(Pointer<Utf8>, Pointer<Utf8>, Poi
 // run cargo build in the sc_rust folder, and then change the value of the
 // variable 'libpath' to reflect whatever platform you are working on.
 void main(List<String> arguments) async {
+  print(HEX.decode('0f3347d8eee1d032869a6f7a42d7d9ba74e744c532869d695c5eff4e92324fbb5bc59ec34483edb478f84bd169fdf63492e39a1f427882fe1a6c2919bcb5bb').length);
   var libpath = './libscnative.so';
   var dl = DynamicLibrary.open(libpath);
   var encrypt_cbc_pkcs7 = dl.lookupFunction<nativeCbcPkcs7, localCbcPkcs7>('encrypt_cbc');
@@ -44,12 +47,15 @@ void main(List<String> arguments) async {
     print('____');
 
     var data = latin1.decode(Uint8List.fromList(List.generate(length, (i) => Random().nextInt(255))));
-    final Pointer<Utf8> dataRust = Utf8.toUtf8(data).cast();
+    final Pointer<Utf8> dataRust = Utf8.toUtf8(base64Encode(utf8.encode(data))).cast();
+
+    var baseData = AesCrypt(padding: PaddingAES.pkcs7, key: key).cbc.encrypt(inp: data, iv: iv);
 
     var sw = Stopwatch()..start();
 
     for (var i = 0; i<10000; i++) {
       strs[0] = '';
+      if (baseData == strs[0]) throw strs[0];
     }
     var control = sw.elapsedMilliseconds;
 
@@ -65,9 +71,9 @@ void main(List<String> arguments) async {
     for (var i = 0; i<10000; i++) {
       var crypt = AesCrypt(padding: PaddingAES.pkcs7, key: key);
       strs[0] = crypt.cbc.encrypt(inp: data, iv: iv);
+      if (strs[0] != baseData) throw strs[0];
     }
     print('dart encryption: ' + (sw.elapsedMilliseconds-control).toString() + ' ms');
     sw.stop();
   }
-
 }

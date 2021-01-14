@@ -13,12 +13,12 @@ is encoding work).
 
 | Length of Data | Time to encrypt using steel_crypt | Time to encrypt using Rust |
 |----------------|-----------------------------------|----------------------------|
-| 7 bytes        | 619 ms                            | 39 ms                      |
-| 21 bytes       | 496 ms                            | 31 ms                      |
-| 63 bytes       | 521 ms                            | 45 ms                      |
-| 189 bytes      | 607 ms                            | 117 ms                     |
-| 567 bytes      | 864 ms                            | 129 ms                     |
-| 1701 bytes     | 1657 ms                           | 45 ms                      |
-| 5103 bytes     | 4161 ms                           | 152 ms                     |
-| 15309 bytes    | 12086 ms                          | 39 ms                      |
-| 45927 bytes    | 34486 ms                          | 139 ms                     |
+| 7 bytes        | 647 ms                            | 45 ms                      |
+| 21 bytes       | 555 ms                            | 44 ms                      |
+| 63 bytes       | 601 ms                            | 81 ms                      |
+| 189 bytes      | 686 ms                            | 174 ms                     |
+| 567 bytes      | 971 ms                            | 462 ms                     |
+| 1701 bytes     | 1794 ms                           | 1322 ms                    |
+| 5103 bytes     | 4425 ms                           | 3864 ms                    |
+| 15309 bytes    | 12622 ms                          | 11750 ms                   |
+| 45927 bytes    | 36596 ms                          | 35082 ms                   |

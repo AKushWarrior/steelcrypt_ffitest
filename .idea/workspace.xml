@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7512616b-d2d0-44cf-8f44-b945d3dd9854" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/cbc_pkcs7_benchmark.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sc_rust/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sc_ffi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sc_ffi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sc_ffi.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sc_ffi.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sc_rust" beforeDir="false" afterPath="$PROJECT_DIR$/sc_rust" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc_rust/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sc_rust/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc_rust/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/sc_rust/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sc_rust/src/main.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sc_ffi_test.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sc_rust" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="dwwm1510" />

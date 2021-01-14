@@ -22,3 +22,5 @@ is encoding work).
 | 5103 bytes     | 4425 ms                           | 3864 ms                    |
 | 15309 bytes    | 12622 ms                          | 11750 ms                   |
 | 45927 bytes    | 36596 ms                          | 35082 ms                   |
+
+The rust code for this repository is located at: https://github.com/AKushWarrior/steelcrypt_ffitest_rust
